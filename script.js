@@ -1,38 +1,68 @@
 const Questions = [
     {
-        q: "Fill in the blank: Snow leopards live _____.",
-        a: [{text: "in the desert.", isCorrect: false},
-            {text: "in the jungle.", isCorrect: false},
-            {text: "in the mountains.", isCorrect: true},
-            {text: "in the city.", isCorrect: false},
+        q: "How many U.S. Military Branches are there?",
+        a: [{text: "6", isCorrect: false},
+            {text: "3", isCorrect: false},
+            {text: "4", isCorrect: false},
+            {text: "7", isCorrect: true},
            ]
     },
     {
-        q: "Fill in the blank: Snow leopards have _____.",
-        a: [{text: "red, with whitish fur.", isCorrect: false},
-            {text: "whitish-gray fur.", isCorrect: true},
-            {text: "black stripes, with orange fur.", isCorrect: false},
-            {text: "white dots with black fur.", isCorrect: false},
+        q: "What war did the U.S. Army take place that lasted 20 years?",
+        a: [{text: "War of Afghanistan", isCorrect: true},
+            {text: "Gulf War", isCorrect: false},
+            {text: "Vietnam War", isCorrect: false},
+            {text: "World War 2", isCorrect: false},
            ]
     },
     {
-        q: "Fill in the blank: Snow leopards use their tails for _____.",
-        a: [{text: "balance.", isCorrect: true},
-            {text: "killing their prey.", isCorrect: false},
-            {text: "grabbing objects.", isCorrect: false},
-            {text: "swinging.", isCorrect: false},
+        q: "What is the most recent U.S. military branch?",
+        a: [{text: "National Guard", isCorrect: false},
+            {text: "Navy", isCorrect: false},
+            {text: "Space Force", isCorrect: true},
+            {text: "Marine Corps", isCorrect: false},
            ]
     },
     {
-        q: "Fill in the blank: Snow leopards eat _____.",
-        a: [{text: "frogs.", isCorrect: false},
-            {text: "fish.", isCorrect: false},
-            {text: "lions.", isCorrect: false},
-            {text: "deer.", isCorrect: true},
+        q: "When was the navy founded?",
+        a: [{text: "1775.", isCorrect: true},
+            {text: "1839.", isCorrect: false},
+            {text: "1774.", isCorrect: false},
+            {text: "1932.", isCorrect: false},
            ]
     },
-    
-    // add more questions here....
+    {
+        q: "What is the Department of Defense in charge of?",
+        a: [{text: "making deals with foreing countries all over the world", isCorrect: false},
+            {text: "providing the country with the best education there is", isCorrect: false},
+            {text: "providing the military forces needed to deter war and protect the security of our country", isCorrect: true},
+            {text: "The economy of the country and taxes", isCorrect: false},
+           ]
+    },
+    {
+        q: "When was the navy founded?",
+        a: [{text: "1775", isCorrect: true},
+            {text: "1839", isCorrect: false},
+            {text: "1774", isCorrect: false},
+            {text: "1932", isCorrect: false},
+           ]
+    },
+    {
+        q: "When was the navy founded?",
+        a: [{text: "1775", isCorrect: true},
+            {text: "1839", isCorrect: false},
+            {text: "1774", isCorrect: false},
+            {text: "1932", isCorrect: false},
+           ]
+    },
+    {
+        q: "When was the navy founded?",
+        a: [{text: "1775", isCorrect: true},
+            {text: "1839", isCorrect: false},
+            {text: "1774", isCorrect: false},
+            {text: "1932", isCorrect: false},
+           ]
+    },
 ]; 
 
 let currQuestion = 0;
