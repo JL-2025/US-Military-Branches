@@ -40,27 +40,27 @@ const Questions = [
            ]
     },
     {
-        q: "When was the navy founded?",
-        a: [{text: "1775", isCorrect: true},
-            {text: "1839", isCorrect: false},
-            {text: "1774", isCorrect: false},
-            {text: "1932", isCorrect: false},
+        q: "What was the NAVY's biggest achivement?",
+        a: [{text: "The invention of the nuclear bomb", isCorrect: false},
+            {text: "Winning world war 2", isCorrect: false},
+            {text: "The invention of firearms", isCorrect: false},
+            {text: "The world's first nuclear powered vehicle", isCorrect: true},
            ]
     },
     {
-        q: "When was the navy founded?",
-        a: [{text: "1775", isCorrect: true},
-            {text: "1839", isCorrect: false},
-            {text: "1774", isCorrect: false},
-            {text: "1932", isCorrect: false},
+        q: "When did the Space Force launch their Falcon Heavy Rocket?",
+        a: [{text: "May 15, 2021", isCorrect: false},
+            {text: "December 28, 2023", isCorrect: true},
+            {text: "July 4, 2025", isCorrect: false},
+            {text: "January 24, 2016", isCorrect: false},
            ]
     },
     {
-        q: "When was the navy founded?",
-        a: [{text: "1775", isCorrect: true},
-            {text: "1839", isCorrect: false},
-            {text: "1774", isCorrect: false},
-            {text: "1932", isCorrect: false},
+        q: "What search and rescue mission perfomed is still goin on after almost a decade?",
+        a: [{text: "Copiago Mining Accident", isCorrect: false},
+            {text: "Operation Jericho", isCorrect: false},
+            {text: "Missing Flight MH370", isCorrect: true},
+            {text: "Operation Jaque", isCorrect: false},
            ]
     },
 ]; 
