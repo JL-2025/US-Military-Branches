@@ -2,7 +2,7 @@ html {
     color: slategray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
-    background-image: url("images/old-US-flag-background.JPG");
+    background-image: url("images/Army-Camo.jpg");
 }
 
 body {
@@ -19,22 +19,22 @@ body {
     left: 0;
     width: 100%;
     z-index: 9999;    
-    background-color: darkred;
+    background-color: rgb(55, 68, 37);
     box-shadow: 2px 2px 2px gray;
 }
 
 h1 {
-    color: maroon;
+    color: rgb(46, 52, 37);
     font: bold 50px sans-serif;
 }
 
 h2 {
-    color: midnightblue;
+    color: rgb(66, 84, 52);
     font-family: sans-serif;
 }
 
 h3 {
-    color: midnightblue;
+    color: rgb(98, 117, 79);
     font-family: sans-serif;
 }
 
@@ -46,7 +46,7 @@ strong {
 img {
     border-style: solid;
     border-width: 5px;
-    border-color: maroon;
+    border-color: rgb(55, 68, 37);
     
     box-shadow: 5px 5px 5px 2px rgba(41, 35, 31, 1);
     
@@ -54,7 +54,7 @@ img {
 
 .logo {
     box-shadow: none;
-    border-color: darkred;
+    border-color: rgb(55, 68, 37);
 }
 
 section {
