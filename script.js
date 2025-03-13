@@ -56,7 +56,7 @@ const Questions = [
            ]
     },
     {
-        q: "What search and rescue mission perfomed is still goin on after almost a decade?",
+        q: "What search and rescue mission perfomed is still going on after almost a decade?",
         a: [{text: "Copiago Mining Accident", isCorrect: false},
             {text: "Operation Jericho", isCorrect: false},
             {text: "Missing Flight MH370", isCorrect: true},
